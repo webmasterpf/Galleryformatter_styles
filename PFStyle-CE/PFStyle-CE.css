@@ -1,0 +1,91 @@
+.galleryformatter-PFStyle-CE { }
+
+.galleryformatter-PFStyle-CE .gallery-thumbs { padding: 0 46px; }
+.galleryformatter-PFStyle-CE .gallery-slides { }
+.galleryformatter-PFStyle-CE .gallery-slide { }
+
+.galleryformatter-PFStyle-CE .gallery-thumbs .arrow,
+.galleryformatter-PFStyle-CE .gallery-thumbs .wrapper,
+.galleryformatter-PFStyle-CE .gallery-thumbs li.active a,
+.galleryformatter-PFStyle-CE .gallery-thumbs li a:hover,
+.galleryformatter-PFStyle-CE .galleryformatter-view-full { background:url("images/sprite.png") no-repeat scroll 0 0 transparent; }
+
+.galleryformatter-PFStyle-CE .gallery-slides .panel-overlay {
+  position: absolute;
+  bottom: 0.5em; left: 0;
+  background: transparent url(images/bg-trans.png) repeat;
+  width:100%;
+  color: white;
+}
+.galleryformatter-PFStyle-CE .gallery-slides .panel-overlay .overlay-inner { padding: 10px; }
+.galleryformatter-PFStyle-CE .gallery-thumbs .wrapper {
+  overflow: auto;
+  line-height:0;
+  background-position: center -326px;
+  background-repeat: repeat-x;
+  border-bottom: 1px solid #EEEEEE;
+}
+.galleryformatter-PFStyle-CE .galleryformatter-view-full {
+  background-position:center -205px;
+  height:46px; width:46px;
+  margin:10px;
+  position:absolute;
+  right:0; top:0;
+  text-indent:-9999px;
+}
+.galleryformatter-PFStyle-CE a:hover .galleryformatter-view-full {
+  background-position: center -252px;
+}
+.galleryformatter-PFStyle-CE .gallery-thumbs ul { list-style: none; }
+.galleryformatter-PFStyle-CE .gallery-thumbs li {
+  float: left;
+  background: transparent none;
+  overflow:hidden;
+  padding: 3px 4px 0 0;
+}
+.galleryformatter-PFStyle-CE .gallery-thumbs li a {
+  display: block;
+  padding: 19px 0 7px;
+}
+.galleryformatter-PFStyle-CE .gallery-thumbs li a:hover { background-position: center -307px; }
+.galleryformatter-PFStyle-CE .gallery-thumbs li.active a { background-position: center -303px; }
+
+.galleryformatter-PFStyle-CE .gallery-thumbs li.active img,
+.galleryformatter-PFStyle-CE .gallery-thumbs li a:hover img {
+  filter:alpha(opacity=100);
+  -ms-filter:”alpha(opacity=100)”;
+  -moz-opacity:1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+.galleryformatter-PFStyle-CE .gallery-thumbs li img {
+  filter:alpha(opacity=60);
+  -ms-filter:”alpha(opacity=60)”;
+  -moz-opacity:0.6;
+  -khtml-opacity: 0.6;
+  opacity: 0.6;
+}
+
+.galleryformatter-PFStyle-CE .gallery-thumbs .arrow {
+  bottom:0;
+  cursor:pointer;
+  display:block;
+  height:46px;
+  position:absolute;
+  text-indent:-9999px;
+  width:46px;
+}
+
+.galleryformatter-PFStyle-CE .gallery-thumbs .forward {
+  background-position: 0px 0;
+  right: 0;
+}
+
+.galleryformatter-PFStyle-CE .gallery-thumbs .back {
+  background-position: -4px -102px;
+  left: 0;
+}
+
+.galleryformatter-PFStyle-CE .gallery-thumbs .forward:hover { background-position: 0px -52px; }
+
+.galleryformatter-PFStyle-CE .gallery-thumbs .back:hover { background-position: -4px -156px; }
